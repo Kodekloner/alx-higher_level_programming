@@ -1,4 +1,6 @@
-uth: Type Your Name Here
+/*
+ * File: 103-python.c
+ * Auth: Type Your Name Here
  */
 
 #include <Python.h>
@@ -10,7 +12,7 @@ void print_python_float(PyObject *p);
 /**
  * print_python_list - Prints basic info about Python lists.
  * @p: A PyObject list object.
-*/
+ */
 void print_python_list(PyObject *p)
 {
 	Py_ssize_t size, alloc, i;
